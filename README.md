@@ -1,4 +1,5 @@
-gd-text
+gd-text-farsi
+(customized for Persian Language)
 =======
 
 ###Basic usage example
