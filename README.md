@@ -1,5 +1,5 @@
-gd-text-farsi
-(customized for Persian Language)
+
+gd-text-farsi (customized for Persian Language)
 =======
 
 ###Basic usage example
