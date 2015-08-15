@@ -18,11 +18,11 @@ $box = new Box($im);
 $box->setFontFace('FarsiFont/B Nazanin.ttf'); // http://www.dafont.com/minecraftia.font
 $box->setFontColor(new Color(255, 75, 140));
 $box->setTextShadow(new Color(0, 0, 0, 50), 2, 2);
-$box->setFontSize(8);
+$box->setFontSize(23);
 $box->setLineHeight(1.5);
 //$box->enableDebug();
 $box->setBox(20, 20, 460, 460);
-$box->setTextAlign('left', 'top');
+$box->setTextAlign('right', 'top');
 
 $gd = new FarsiGD();
 
