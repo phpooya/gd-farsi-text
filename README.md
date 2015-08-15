@@ -36,5 +36,5 @@ header("Content-type: image/png;");
 imagepng($im, null, 9, PNG_ALL_FILTERS);
 ```
 
-![line height example](examples/persian.png)
+![line height example](http://8pic.ir/images/5mm7n0hgvbvy3uenph0h.png)
 
