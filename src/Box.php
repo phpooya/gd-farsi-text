@@ -185,14 +185,19 @@ class Box
         foreach ($explicitLines as $line) {
             // Check every line if it needs to be wrapped
             $words = explode(" ", $line);
-            $line = $words[0];
-            for ($i = 1; $i < count($words); $i++) {
-                $box = $this->calculateBox($line." ".$words[$i]);
+            //$line = $words[0];
+            $line = $words[count($words)-1];
+            //for ($i = 1; $i < count($words); $i++) {
+            for ($i = count($words)-1 ; $i != -1; $i--) {
+                 $line = $words[count($words)-1];
+                //$box = $this->calculateBox($line." ".$words[$i]);
+                $box = $this->calculateBox($words[$i]." ".$line);
                 if (($box[4]-$box[6]) >= $this->box['width']) {
                     $lines[] = $line;
                     $line = $words[$i];
                 } else {
-                    $line .= " ".$words[$i];
+                    //$line .= " ".$words[$i];
+                    $line =  $words[$i] ." ". $line;
                 }
             }
             $lines[] = $line;
