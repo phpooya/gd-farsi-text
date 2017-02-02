@@ -61,7 +61,10 @@ class FarsiGD {
 
     public function persianText($str, $z="", $method='tahoma', $farsiNumber=true) {
         $en_str = '';
-        $runWay = '';
+        $output = '';
+        $str_back = '';
+        $num = '';
+        $e_output = '';
         if ($method == 'tahoma') {
             $this->p_chars = array_merge($this->p_chars, $this->tahoma);
         } else {
@@ -319,5 +322,4 @@ class FarsiGD {
         }
         return $af_date;
     }
-
 }
