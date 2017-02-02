@@ -1,4 +1,5 @@
 <?php
+namespace phpooya\gdfarsitext;
 
 class FarsiGD {
 
@@ -57,7 +58,7 @@ class FarsiGD {
     public $ignorelist = array('', 'ٌ', 'ٍ', 'ً', 'ُ', 'ِ', 'َ', 'ّ', 'ٓ', 'ٰ', 'ٔ', 'ﹶ', 'ﹺ', 'ﹸ', 'ﹼ', 'ﹾ', 'ﹴ', 'ﹰ', 'ﱞ', 'ﱟ', 'ﱠ', 'ﱡ', 'ﱢ', 'ﱣ',);
     public $openClose = array('>', ')', '}', ']', '<', '(', '{', '[');
     public $en_chars = array('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'); 
-///
+
     public function persianText($str, $z="", $method='tahoma', $farsiNumber=true) {
         $en_str = '';
         $runWay = '';
@@ -320,5 +321,3 @@ class FarsiGD {
     }
 
 }
-
-?>

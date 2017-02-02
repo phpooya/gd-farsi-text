@@ -1,5 +1,5 @@
 <?php
-namespace GDText;
+namespace phpooya\gdfarsitext;
 
 class Box
 {
