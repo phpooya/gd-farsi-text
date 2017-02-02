@@ -1,0 +1,24 @@
+{
+  "name": "phpooya/gd-farsi-text",
+  "description": "A text render repo.",
+  "keywords": ["php", "phpooya", "render", "text"],
+  "homepage": "https://github.com/phpooya/",
+  "type": "project",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+
+  },
+  "require-dev": {
+
+  },
+  "config": {
+
+  },
+  "extra": {
+
+  },
+  "autoload": {
+
+  }
+}
